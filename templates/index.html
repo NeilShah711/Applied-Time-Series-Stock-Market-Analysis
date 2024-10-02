@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis App</title>
+</head>
+<body>
+    <h1>Welcome to Stock Analysis</h1>
+    <form action="/stock" method="POST">
+        <label for="symbol">Stock Symbol:</label>
+        <input type="text" id="symbol" name="symbol" required><br>
+
+        <label for="n_years">Number of Years to Forecast:</label>
+        <input type="number" id="n_years" name="n_years" value="1" min="1"><br>
+
+        <input type="submit" value="Analyze Stock">
+    </form>
+</body>
+</html>

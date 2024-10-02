@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis</title>
+</head>
+<body>
+    <h1>Stock Analysis</h1>
+    <div>
+        <h2>Raw Data Plot</h2>
+        {{ raw_data_plot | safe }}
+    </div>
+
+    <div>
+        <h2>Forecast Plot</h2>
+        {{ forecast_plot | safe }}
+    </div>
+
+    <div>
+        <h2>Technical Indicators</h2>
+        {{ technical_indicators_plot | safe }}
+    </div>
+
+    <div>
+        <h2>Candlestick Chart</h2>
+        {{ candlestick_plot | safe }}
+    </div>
+
+    <div>
+        <h2>Candlestick Patterns</h2>
+        <p>{{ candlestick_patterns }}</p>
+    </div>
+
+    <div>
+        <h2>Sentiment Analysis</h2>
+        {{ sentiment_pie_chart | safe }}
+    </div>
+</body>
+</html>
