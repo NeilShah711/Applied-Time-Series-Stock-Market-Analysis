@@ -1,0 +1,12 @@
+streamlit==1.25.0
+datetime
+pandas==2.1.1
+yfinance==0.2.31
+statsmodels==0.14.0
+plotly==5.15.0
+matplotlib==3.8.0
+talib==0.4.0
+prophet==1.2.1
+requests==2.31.0
+pygooglenews==0.1.2
+scipy==1.11.3
