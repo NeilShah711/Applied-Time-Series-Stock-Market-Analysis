@@ -206,7 +206,7 @@ def main():
 
             seasonal_decomposition(data)
 
-            st.subheader("Step 13: ACF and PACF Plots")
+            st.subheader("Step 10: ACF and PACF Plots")
             fig, ax = plt.subplots(1, 2, figsize=(12, 6))
             plot_acf(data['Close'].dropna(), ax=ax[0])
             plot_pacf(data['Close'].dropna(), ax=ax[1])
